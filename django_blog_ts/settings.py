@@ -36,6 +36,8 @@ X_FRAME_OPTIONS = “SAMEORIGIN”
 # important so that Summernote editor works after deploying
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+
 ALLOWED_HOSTS = ["django-blog-ts.herokuapp.com", "localhost"]
 
 
