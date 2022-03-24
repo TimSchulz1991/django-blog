@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-X_FRAME_OPTIONS = “SAMEORIGIN”
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 # important so that Summernote editor works after deploying
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
